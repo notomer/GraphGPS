@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C29B162BF3754700498477 /* GraphGPSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C29B152BF3754700498477 /* GraphGPSApp.swift */; };
+		17C29B182BF3754700498477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C29B172BF3754700498477 /* ContentView.swift */; };
+		17C29B1A2BF3754800498477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C29B192BF3754800498477 /* Assets.xcassets */; };
+		17C29B1D2BF3754800498477 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C29B1C2BF3754800498477 /* Preview Assets.xcassets */; };
+		17C29B272BF3754800498477 /* GraphGPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C29B262BF3754800498477 /* GraphGPSTests.swift */; };
+		17C29B312BF3754800498477 /* GraphGPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C29B302BF3754800498477 /* GraphGPSUITests.swift */; };
+		17C29B332BF3754800498477 /* GraphGPSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C29B322BF3754800498477 /* GraphGPSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17C29B232BF3754800498477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C29B0A2BF3754700498477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C29B112BF3754700498477;
+			remoteInfo = GraphGPS;
+		};
+		17C29B2D2BF3754800498477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C29B0A2BF3754700498477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C29B112BF3754700498477;
+			remoteInfo = GraphGPS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17C29B122BF3754700498477 /* GraphGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C29B152BF3754700498477 /* GraphGPSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphGPSApp.swift; sourceTree = "<group>"; };
+		17C29B172BF3754700498477 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17C29B192BF3754800498477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17C29B1C2BF3754800498477 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17C29B222BF3754800498477 /* GraphGPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphGPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C29B262BF3754800498477 /* GraphGPSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphGPSTests.swift; sourceTree = "<group>"; };
+		17C29B2C2BF3754800498477 /* GraphGPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphGPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C29B302BF3754800498477 /* GraphGPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphGPSUITests.swift; sourceTree = "<group>"; };
+		17C29B322BF3754800498477 /* GraphGPSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphGPSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C29B0F2BF3754700498477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C29B1F2BF3754800498477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C29B292BF3754800498477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C29B092BF3754700498477 = {
+			isa = PBXGroup;
+			children = (
+				17C29B142BF3754700498477 /* GraphGPS */,
+				17C29B252BF3754800498477 /* GraphGPSTests */,
+				17C29B2F2BF3754800498477 /* GraphGPSUITests */,
+				17C29B132BF3754700498477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17C29B132BF3754700498477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C29B122BF3754700498477 /* GraphGPS.app */,
+				17C29B222BF3754800498477 /* GraphGPSTests.xctest */,
+				17C29B2C2BF3754800498477 /* GraphGPSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C29B142BF3754700498477 /* GraphGPS */ = {
+			isa = PBXGroup;
+			children = (
+				17C29B152BF3754700498477 /* GraphGPSApp.swift */,
+				17C29B172BF3754700498477 /* ContentView.swift */,
+				17C29B192BF3754800498477 /* Assets.xcassets */,
+				17C29B1B2BF3754800498477 /* Preview Content */,
+			);
+			path = GraphGPS;
+			sourceTree = "<group>";
+		};
+		17C29B1B2BF3754800498477 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17C29B1C2BF3754800498477 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17C29B252BF3754800498477 /* GraphGPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				17C29B262BF3754800498477 /* GraphGPSTests.swift */,
+			);
+			path = GraphGPSTests;
+			sourceTree = "<group>";
+		};
+		17C29B2F2BF3754800498477 /* GraphGPSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17C29B302BF3754800498477 /* GraphGPSUITests.swift */,
+				17C29B322BF3754800498477 /* GraphGPSUITestsLaunchTests.swift */,
+			);
+			path = GraphGPSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17C29B112BF3754700498477 /* GraphGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C29B362BF3754800498477 /* Build configuration list for PBXNativeTarget "GraphGPS" */;
+			buildPhases = (
+				17C29B0E2BF3754700498477 /* Sources */,
+				17C29B0F2BF3754700498477 /* Frameworks */,
+				17C29B102BF3754700498477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphGPS;
+			productName = GraphGPS;
+			productReference = 17C29B122BF3754700498477 /* GraphGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17C29B212BF3754800498477 /* GraphGPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C29B392BF3754800498477 /* Build configuration list for PBXNativeTarget "GraphGPSTests" */;
+			buildPhases = (
+				17C29B1E2BF3754800498477 /* Sources */,
+				17C29B1F2BF3754800498477 /* Frameworks */,
+				17C29B202BF3754800498477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C29B242BF3754800498477 /* PBXTargetDependency */,
+			);
+			name = GraphGPSTests;
+			productName = GraphGPSTests;
+			productReference = 17C29B222BF3754800498477 /* GraphGPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17C29B2B2BF3754800498477 /* GraphGPSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C29B3C2BF3754800498477 /* Build configuration list for PBXNativeTarget "GraphGPSUITests" */;
+			buildPhases = (
+				17C29B282BF3754800498477 /* Sources */,
+				17C29B292BF3754800498477 /* Frameworks */,
+				17C29B2A2BF3754800498477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C29B2E2BF3754800498477 /* PBXTargetDependency */,
+			);
+			name = GraphGPSUITests;
+			productName = GraphGPSUITests;
+			productReference = 17C29B2C2BF3754800498477 /* GraphGPSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C29B0A2BF3754700498477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					17C29B112BF3754700498477 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					17C29B212BF3754800498477 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 17C29B112BF3754700498477;
+					};
+					17C29B2B2BF3754800498477 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 17C29B112BF3754700498477;
+					};
+				};
+			};
+			buildConfigurationList = 17C29B0D2BF3754700498477 /* Build configuration list for PBXProject "GraphGPS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C29B092BF3754700498477;
+			productRefGroup = 17C29B132BF3754700498477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C29B112BF3754700498477 /* GraphGPS */,
+				17C29B212BF3754800498477 /* GraphGPSTests */,
+				17C29B2B2BF3754800498477 /* GraphGPSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C29B102BF3754700498477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C29B1D2BF3754800498477 /* Preview Assets.xcassets in Resources */,
+				17C29B1A2BF3754800498477 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C29B202BF3754800498477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C29B2A2BF3754800498477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C29B0E2BF3754700498477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C29B182BF3754700498477 /* ContentView.swift in Sources */,
+				17C29B162BF3754700498477 /* GraphGPSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C29B1E2BF3754800498477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C29B272BF3754800498477 /* GraphGPSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C29B282BF3754800498477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C29B332BF3754800498477 /* GraphGPSUITestsLaunchTests.swift in Sources */,
+				17C29B312BF3754800498477 /* GraphGPSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C29B242BF3754800498477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C29B112BF3754700498477 /* GraphGPS */;
+			targetProxy = 17C29B232BF3754800498477 /* PBXContainerItemProxy */;
+		};
+		17C29B2E2BF3754800498477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C29B112BF3754700498477 /* GraphGPS */;
+			targetProxy = 17C29B2D2BF3754800498477 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17C29B342BF3754800498477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17C29B352BF3754800498477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17C29B372BF3754800498477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphGPS/Preview Content\"";
+				DEVELOPMENT_TEAM = V6XWCKSGZQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = notomer.GraphGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17C29B382BF3754800498477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphGPS/Preview Content\"";
+				DEVELOPMENT_TEAM = V6XWCKSGZQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = notomer.GraphGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17C29B3A2BF3754800498477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6XWCKSGZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = notomer.GraphGPSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphGPS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GraphGPS";
+			};
+			name = Debug;
+		};
+		17C29B3B2BF3754800498477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6XWCKSGZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = notomer.GraphGPSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphGPS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GraphGPS";
+			};
+			name = Release;
+		};
+		17C29B3D2BF3754800498477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6XWCKSGZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = notomer.GraphGPSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GraphGPS;
+			};
+			name = Debug;
+		};
+		17C29B3E2BF3754800498477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6XWCKSGZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = notomer.GraphGPSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GraphGPS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C29B0D2BF3754700498477 /* Build configuration list for PBXProject "GraphGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C29B342BF3754800498477 /* Debug */,
+				17C29B352BF3754800498477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C29B362BF3754800498477 /* Build configuration list for PBXNativeTarget "GraphGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C29B372BF3754800498477 /* Debug */,
+				17C29B382BF3754800498477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C29B392BF3754800498477 /* Build configuration list for PBXNativeTarget "GraphGPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C29B3A2BF3754800498477 /* Debug */,
+				17C29B3B2BF3754800498477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C29B3C2BF3754800498477 /* Build configuration list for PBXNativeTarget "GraphGPSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C29B3D2BF3754800498477 /* Debug */,
+				17C29B3E2BF3754800498477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17C29B0A2BF3754700498477 /* Project object */;
+}
