@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1755655D2BF51F7100C9E379 /* AStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175565572BF51F7100C9E379 /* AStar.swift */; };
+		1755655E2BF51F7100C9E379 /* BellmanFord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175565582BF51F7100C9E379 /* BellmanFord.swift */; };
+		1755655F2BF51F7100C9E379 /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175565592BF51F7100C9E379 /* BFS.swift */; };
+		175565602BF51F7100C9E379 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755655A2BF51F7100C9E379 /* DFS.swift */; };
+		175565612BF51F7100C9E379 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1755655B2BF51F7100C9E379 /* Dijkstra.swift */; };
+		17AFD61B2BF51F1F00A041A7 /* AStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AFD6122BF51F1F00A041A7 /* AStar.swift */; };
+		17AFD61C2BF51F1F00A041A7 /* GraphGPSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AFD6132BF51F1F00A041A7 /* GraphGPSApp.swift */; };
+		17AFD61D2BF51F1F00A041A7 /* PathFindingFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AFD6142BF51F1F00A041A7 /* PathFindingFunc.swift */; };
+		17AFD61E2BF51F1F00A041A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AFD6152BF51F1F00A041A7 /* ContentView.swift */; };
+		17AFD61F2BF51F1F00A041A7 /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AFD6162BF51F1F00A041A7 /* DFS.swift */; };
+		17AFD6202BF51F1F00A041A7 /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AFD6172BF51F1F00A041A7 /* BFS.swift */; };
+		17AFD6212BF51F1F00A041A7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AFD6182BF51F1F00A041A7 /* Models.swift */; };
+		17AFD6222BF51F1F00A041A7 /* BellmanFord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AFD6192BF51F1F00A041A7 /* BellmanFord.swift */; };
+		17AFD6232BF51F1F00A041A7 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AFD61A2BF51F1F00A041A7 /* Dijkstra.swift */; };
 		17C29B162BF3754700498477 /* GraphGPSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C29B152BF3754700498477 /* GraphGPSApp.swift */; };
 		17C29B182BF3754700498477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C29B172BF3754700498477 /* ContentView.swift */; };
 		17C29B1A2BF3754800498477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C29B192BF3754800498477 /* Assets.xcassets */; };
@@ -14,6 +28,7 @@
 		17C29B272BF3754800498477 /* GraphGPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C29B262BF3754800498477 /* GraphGPSTests.swift */; };
 		17C29B312BF3754800498477 /* GraphGPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C29B302BF3754800498477 /* GraphGPSUITests.swift */; };
 		17C29B332BF3754800498477 /* GraphGPSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C29B322BF3754800498477 /* GraphGPSUITestsLaunchTests.swift */; };
+		17C29B402BF377F600498477 /* PathFindingFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C29B3F2BF377F600498477 /* PathFindingFunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		175565572BF51F7100C9E379 /* AStar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AStar.swift; sourceTree = "<group>"; };
+		175565582BF51F7100C9E379 /* BellmanFord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BellmanFord.swift; sourceTree = "<group>"; };
+		175565592BF51F7100C9E379 /* BFS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		1755655A2BF51F7100C9E379 /* DFS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
+		1755655B2BF51F7100C9E379 /* Dijkstra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
+		17AFD6122BF51F1F00A041A7 /* AStar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AStar.swift; sourceTree = "<group>"; };
+		17AFD6132BF51F1F00A041A7 /* GraphGPSApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphGPSApp.swift; sourceTree = "<group>"; };
+		17AFD6142BF51F1F00A041A7 /* PathFindingFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathFindingFunc.swift; sourceTree = "<group>"; };
+		17AFD6152BF51F1F00A041A7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17AFD6162BF51F1F00A041A7 /* DFS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
+		17AFD6172BF51F1F00A041A7 /* BFS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		17AFD6182BF51F1F00A041A7 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		17AFD6192BF51F1F00A041A7 /* BellmanFord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BellmanFord.swift; sourceTree = "<group>"; };
+		17AFD61A2BF51F1F00A041A7 /* Dijkstra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
 		17C29B122BF3754700498477 /* GraphGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C29B152BF3754700498477 /* GraphGPSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphGPSApp.swift; sourceTree = "<group>"; };
 		17C29B172BF3754700498477 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +73,7 @@
 		17C29B2C2BF3754800498477 /* GraphGPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphGPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C29B302BF3754800498477 /* GraphGPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphGPSUITests.swift; sourceTree = "<group>"; };
 		17C29B322BF3754800498477 /* GraphGPSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphGPSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17C29B3F2BF377F600498477 /* PathFindingFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFindingFunc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +101,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1755655C2BF51F7100C9E379 /* Algorithims */ = {
+			isa = PBXGroup;
+			children = (
+				175565572BF51F7100C9E379 /* AStar.swift */,
+				175565582BF51F7100C9E379 /* BellmanFord.swift */,
+				175565592BF51F7100C9E379 /* BFS.swift */,
+				1755655A2BF51F7100C9E379 /* DFS.swift */,
+				1755655B2BF51F7100C9E379 /* Dijkstra.swift */,
+			);
+			path = Algorithims;
+			sourceTree = "<group>";
+		};
 		17C29B092BF3754700498477 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +136,21 @@
 		17C29B142BF3754700498477 /* GraphGPS */ = {
 			isa = PBXGroup;
 			children = (
-				17C29B152BF3754700498477 /* GraphGPSApp.swift */,
+				17AFD6152BF51F1F00A041A7 /* ContentView.swift */,
 				17C29B172BF3754700498477 /* ContentView.swift */,
+				17C29B152BF3754700498477 /* GraphGPSApp.swift */,
+				17AFD6192BF51F1F00A041A7 /* BellmanFord.swift */,
+				17AFD6172BF51F1F00A041A7 /* BFS.swift */,
+				17AFD6162BF51F1F00A041A7 /* DFS.swift */,
+				1755655C2BF51F7100C9E379 /* Algorithims */,
+				17AFD61A2BF51F1F00A041A7 /* Dijkstra.swift */,
+				17AFD6122BF51F1F00A041A7 /* AStar.swift */,
+				17AFD6132BF51F1F00A041A7 /* GraphGPSApp.swift */,
+				17AFD6182BF51F1F00A041A7 /* Models.swift */,
+				17AFD6142BF51F1F00A041A7 /* PathFindingFunc.swift */,
 				17C29B192BF3754800498477 /* Assets.xcassets */,
 				17C29B1B2BF3754800498477 /* Preview Content */,
+				17C29B3F2BF377F600498477 /* PathFindingFunc.swift */,
 			);
 			path = GraphGPS;
 			sourceTree = "<group>";
@@ -257,8 +310,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1755655E2BF51F7100C9E379 /* BellmanFord.swift in Sources */,
+				175565602BF51F7100C9E379 /* DFS.swift in Sources */,
+				17AFD61C2BF51F1F00A041A7 /* GraphGPSApp.swift in Sources */,
+				17AFD61F2BF51F1F00A041A7 /* DFS.swift in Sources */,
 				17C29B182BF3754700498477 /* ContentView.swift in Sources */,
+				17AFD61E2BF51F1F00A041A7 /* ContentView.swift in Sources */,
+				17AFD61B2BF51F1F00A041A7 /* AStar.swift in Sources */,
+				17AFD6232BF51F1F00A041A7 /* Dijkstra.swift in Sources */,
+				17AFD6202BF51F1F00A041A7 /* BFS.swift in Sources */,
+				1755655D2BF51F7100C9E379 /* AStar.swift in Sources */,
+				17C29B402BF377F600498477 /* PathFindingFunc.swift in Sources */,
+				17AFD61D2BF51F1F00A041A7 /* PathFindingFunc.swift in Sources */,
+				1755655F2BF51F7100C9E379 /* BFS.swift in Sources */,
+				17AFD6222BF51F1F00A041A7 /* BellmanFord.swift in Sources */,
 				17C29B162BF3754700498477 /* GraphGPSApp.swift in Sources */,
+				17AFD6212BF51F1F00A041A7 /* Models.swift in Sources */,
+				175565612BF51F7100C9E379 /* Dijkstra.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +498,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +528,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
